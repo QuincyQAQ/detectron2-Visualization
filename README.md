@@ -12,7 +12,7 @@ python visualization.py
 ### `visualization_d2toYolo.py` README
 
 #### Overview
-The `visualization_d2toYolo.py` script is designed to convert and visualize data from a Detectron2 format to the YOLO format. This script is particularly useful for scenarios where you need to visualize ground-truth data or annotations in a YOLO-compatible format.
+The `visualization_d2toYolo.py` script is designed to convert and visualize data from a Detectron2 format to the YOLO format. This script is particularly useful for scenarios where you need to visualize ground-truth data or annotations in a YOLO-compatible format. 
 
 
 
@@ -23,7 +23,7 @@ To use the `visualization_d2toYolo.py` script, you need to run it from the comma
 python visualization_d2toYolo.py --source annotation --config-file path_to_config.yaml --output-dir ./output --show
 ```
 
-This command will visualize the annotations in the YOLO format and save the output to the specified directory. If the `--show` flag is provided, the output will also be displayed in a window.
+This command will visualize the annotations in the YOLO format and save the output to the specified directory. If the `--show` flag is provided, the output will also be displayed in a window. If you need to change the category displayed on the detection box, modify data/datasets/builtin_meta.py
 
 #### Dependencies
 - `argparse`: For parsing command-line arguments.
